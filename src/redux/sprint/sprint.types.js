@@ -1,0 +1,7 @@
+const sprintActionTypes = {
+    FETCH_SPRINT_START: 'FETCH_SPRINT_START',
+    FETCH_SPRINT_SUCCESS: 'FETCH_SPRINT_SUCCESS',
+    FETCH_SPRINT_FAILURE: 'FETCH_SPRINT_FAILURE'
+}
+
+export default sprintActionTypes;

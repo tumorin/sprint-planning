@@ -1,0 +1,26 @@
+.title-bar {
+    height: 32px;
+    background-color: #000000;
+  }
+  
+  .app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+    background-color: #212121;
+    color: #ffffff;
+    padding: 0 10px;
+  }
+
+  .app-bar .sprint-name {
+    font-family: Roboto;
+    font-size: 24px;
+    /* padding: 0 10px; */
+  }
+
+  .app-bar .expired-label {
+    font-family: Roboto;
+    font-size: 13 px;
+  }
