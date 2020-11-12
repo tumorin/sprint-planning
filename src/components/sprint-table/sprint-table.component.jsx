@@ -1,14 +1,5 @@
 import React, {useState} from 'react';
 
-import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 
 import 'ag-grid-community/dist/styles/ag-grid.css';
@@ -19,14 +10,8 @@ import {connect} from 'react-redux';
 import {selectSprintPbis,selectSprint} from '../../redux/sprint/sprint.selectors';
 
 
-const useStyles = makeStyles({
-    table: {
-      minWidth: 650,
-    },
-  });
 
 const SprintTable = (props) => {
-    const classes = useStyles(); //delete
 
     const [gridApi, setGridApi] = useState(null);
     const [gridColumnApi, setGridColumnApi] = useState(null);
